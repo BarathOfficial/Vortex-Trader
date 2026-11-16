@@ -21,12 +21,6 @@ class MarketauxCollector:
     
     def fetch_entity_search(self, search: str):
         return self._request("GET", "/entity/search", {"search": search})
-
-    def fetch_entity_types(self):
-        return self._request("GET", "/entity/type/list")
-    
-    def fetch_entity_industries(self):
-        return self._request("GET", "/entity/industry/list")
     
     def fetch_news_sources(self):
         return self._request("GET", "/news/sources")

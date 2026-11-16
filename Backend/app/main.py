@@ -3,11 +3,6 @@ from app.collectors.marketaux import MarketauxCollector
 
 collector = MarketauxCollector()
 
-print("ENTITY TYPES")
-print(collector.fetch_entity_types())
-
-print("INDUSTRIES")
-print(collector.fetch_entity_industries())
 
 print("ENTITY SEARCH")
 print(collector.fetch_entity_search("Reliance Industries"))

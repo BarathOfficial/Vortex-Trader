@@ -4,6 +4,8 @@ from typing import List
 
 class Settings(BaseSettings):
     
+    DATABASE_URL: str
+
     MARKETAUX_APIKEY: str
     MARKETAUX_BASE_USRL: str
 
